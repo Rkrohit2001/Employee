@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+body {
+  color: green;
+  font: 14px Arial;
+  margin: 15% auto;
+  padding: 0;
+  position: relative;
+  background-color: #46D5B4;
+}
+
+.container { 
+  margin: 25px auto;
+  position: relative; 
+   width: 900px; 
+   margin-top: -200px;
+   /*background-color: #46D5B4;*/
+   height: 100%;
+   float: right;
+   background: transparent;
+
+}
+#content {
+ 
+  margin: 0 auto;
+  padding: 25px 0 0;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 400px;
+}
+#content h1 {
+  color: #FF406C;
+  font: bold 30px Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  line-height: 20px;
+  margin: 10px 0 30px;
+  font-family: cursive;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 1px;
+}
+form { 
+  margin: 0 20px; 
+  position: relative;
+}
+input[type="text"],
+input[type="password"] {
+ background: #eae7e7 url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+  border: 1px solid #c8c8c8;
+  color: purple;
+  font-weight: bolder;
+  font: 13px Helvetica, Arial, sans-serif;
+  margin: 0 0 10px;
+  padding: 15px 10px 15px 40px;
+  width: 80%;
+  border-radius: 10px;
+  border-color: purple;
+}
+#pass { background-position: 10px 10px !important }
+#email { background-position: 10px 13px !important }
+input[type="submit"] {
+  border-radius: 30px;
+  border: 3px solid #FF406C;
+  cursor: pointer;
+  float: left;
+  font: bold 15px Helvetica, Arial, sans-serif;
+  height: 35px;
+  margin: 20px 0 35px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  width: 120px;
+    color: azure;
+  font-family: arial;
+  background-color: #FF406C;
+}
+input[type="submit"]:hover {
+  background: url(svg/pppp.svg);
+  color: azure;
+  font-family: cursive;
+}
+a {
+  color: #FF406C;
+    float: right;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+    font-family: cursive;
+}
+a:hover {
+  color: purple;
+    float: right;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 30px 15px 0 0;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.img 
+{
+  position:relative; 
+   width: 100%; 
+   margin-top: -20px;
+   margin-bottom: 100px;
+   /*background-color: #46D5B4;*/
+   height: 100%;
+   justify-content: center;
+  padding: 25px 0 0;
+  background: transparent;
+}
+.dd
+{
+  float: left;
+  position: absolute;
+  margin-top: -200px;
+  color: transparent;
+  text-shadow: 5px 8px 20px purple;
+  letter-spacing: 2px;
+  font-size: 6em;
+  margin-left: 20px;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bolder;
+  -webkit-text-stroke: 1.5px black;
+  background: url(img/black.jpg);
+  -webkit-background-clip:text;
+  background-position: 0 0;
+  animation: back 35s linear infinite;
+  text-decoration: none;
+}
+@keyframes back{
+  100%{
+    background-position: 0 2000px ;
+  }
+    100%{
+    background-position: 2000px 0  ;
+  }
+}

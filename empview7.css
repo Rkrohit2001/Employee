@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	height: auto;
+	width: auto;
+	background-color: #BCECE0;
+/*background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%);*/
+	/*height: 100%;
+	width: 100%;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;*/
+}
+.container
+{
+	height: auto;
+	width: auto;
+	/*width: 100%;*/
+	/*background-size: cover;*/
+	padding: 0;
+	margin: 0;
+	/*height: 100vh;
+	width: 100%;*/
+	background-color: transparent;
+}
+.content
+{
+	
+	max-width: 1200px;
+	margin: auto;
+	overflow: auto;
+	background-color: transparent;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 50px;
+	font-family: cursive;
+	margin-left: 170px;
+
+}
+/*.emp
+{
+	height:182px ;
+	width: 33%;
+	background: url(ngif/emp.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	background-color: transparent;
+	/*border-radius: 40px 40px 20px 20px;*/
+	/*transition: 1s;
+	overflow: hidden;
+	transform: rotate(-25deg);
+	border-radius: 50%;
+	*/
+/*}*/
+
+.emp .addemp .update .search .delete .home img
+{
+	width: 100%;
+	height: auto;
+}
+.jj
+{
+	padding: 15px;
+	text-align: center;
+	font-family: 'Frijole', cursive;
+	color: purple;
+	letter-spacing: 2px;
+	margin-left: -40px;
+
+	/*text-shadow: 7px 8px 15px black;*/
+
+}
+.jj:hover
+{
+	color: black;
+	text-decoration: underline;
+	font-family: 'Trade Winds', cursive;
+	/*font-size: 20px;*/
+	margin-left: -20px;
+}
+a
+{
+	text-decoration: none;
+}
+.svg
+{
+	display: flex;
+	margin: 0;
+	width: 100%;
+}
+.svgchild1
+{
+	display: flex;
+	float: left;
+	/*position: relative;*/
+	position: absolute;
+	 margin-top: -180px;
+	  margin-left: 10px;
+	  
+	   /*font-family: 'Permanent Marker', cursive;*/
+	   font-family: 'Cinzel Decorative', cursive;
+	   font-size: 1em;
+	   
+}
+.back
+{
+	display: flex;
+	float: right;
+	/*position: relative;*/
+	position: relative;
+	 margin-top: -200px;
+	  margin-right: 50px;
+	   margin-bottom: 180px;
+}
+.logo
+{
+	display: flex;
+	float: left;
+	/*position: relative;*/
+	position: absolute;
+	 margin-top: -92px;
+	  margin-left: 30px;
+	   
+	   /*font-family: 'Permanent Marker', cursive;*/
+	   /*font-size: 1em;*/
+	   /*transform: rotate(-20deg);*/
+}
+.h1
+{
+	margin-top: 12px;
+	transform: rotate(-20deg); 
+	margin-bottom: 180px;
+	text-shadow: 7px 2px 9px purple;
+}
+.svgbottom
+{
+	margin: 0;
+	padding: 0;
+}

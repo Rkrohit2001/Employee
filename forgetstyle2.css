@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+body {
+  color: green;
+  font: 14px Arial;
+  margin: 15% auto;
+  padding: 0;
+  position: relative;
+  background-color: pink;
+}
+
+.container { 
+  margin: 25px auto;
+  position: relative; 
+   width: 900px; 
+   margin-top: -250px;
+   background-color: pink;
+   height: 100%;
+
+}
+#content {
+ 
+  margin: 0 auto;
+  padding: 25px 0 0;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  width: 400px;
+}
+#content h1 {
+  color: purple;
+  font: bold 30px Helvetica, Arial, sans-serif;
+  letter-spacing: -0.05em;
+  line-height: 20px;
+  margin: 10px 0 30px;
+  font-family: cursive;
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 1px;
+}
+form { 
+  margin: 0 20px; 
+  position: relative;
+}
+input[type="text"],
+input[type="email"] {
+ background: #eae7e7 url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
+  border: 1px solid #c8c8c8;
+  color: #777;
+  font: 13px Helvetica, Arial, sans-serif;
+  margin: 0 0 10px;
+  padding: 15px 10px 15px 40px;
+  width: 80%;
+  border-radius: 10px;
+  border-color: purple;
+}
+#username { background-position: 10px 10px !important }
+#email { background-position: 10px 13px !important }
+input[type="submit"] {
+  border-radius: 30px;
+  border: 3px solid purple;
+  cursor: pointer;
+  float: left;
+  font: bold 15px Helvetica, Arial, sans-serif;
+  height: 35px;
+  margin: 20px 0 35px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  width: 120px;
+    color: azure;
+  font-family: arial;
+  background-color: #BF40BF;
+}
+input[type="submit"]:hover {
+  background: url(svg/ps.svg);
+  color: azure;
+  font-family: cursive;
+}
+a {
+  color: purple;
+    float: right;
+    font-size: 16px;
+    margin: 30px 15px 0 0;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+a:hover {
+  color: purple;
+  font-weight: bolder;
+    float: right;
+    font-size: 16px;
+    margin: 30px 15px 0 0;
+    text-shadow: 2px 3px 9px black;
+    text-decoration: underline;
+}
